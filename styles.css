@@ -1,0 +1,150 @@
+@font-face {
+    font-family: NorseBold;
+    src: url(./Norse-Bold.otf) format("opentype");
+}
+
+body {
+    background: rgb(17, 17, 17);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    /* overflow-y: hidden; */
+}
+
+#contents {
+    display: flex;
+    justify-content: center;
+    width: 65vw;
+    height: 100vh;
+}
+
+img[src="./halie-west-25xggax4bSA-unsplash.jpg"] {
+    margin: 0;
+    padding: 0;
+    width: 25vw;
+    height: 100vh;
+}
+
+img[src="./odin-lined.png"] {
+    height: 120px;
+    width: 90px;
+}
+
+span {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#logo {
+    font-family: NorseBold;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    justify-content: center;
+}
+
+#logo p {
+    margin: 0;
+}
+
+#left > p {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-size: .9rem;
+    margin: 0;
+}
+
+#left {
+    position: relative;
+}
+
+#hero,
+h2 {
+    font-size: 1.3rem;
+    margin: 0;
+    padding-left: var(--padding-text-left);
+    padding-right: 8rem;
+    padding: 0 var(--padding-right) 10px var(--padding-text-left);
+}
+
+#hero {
+    margin-top: 10rem;
+}
+
+h2 {
+    background-color: rgb(255, 255, 255);
+    padding-top: 1rem;
+}
+
+#right {
+    --padding-text-left: 3rem;
+    --padding-right: 8rem;
+    background-color: rgb(247, 247, 247);
+    color: black;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+#inputs {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: var(--padding-right);
+    padding-bottom: 2rem;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, .1);
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding-left: var(--padding-text-left);
+}
+
+input {
+    appearance: none;
+    margin-right: 30px;
+    line-height: 1.5rem;
+    width: 13rem;
+}
+
+label {
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+button {
+    appearance: none;
+    width: 12rem;
+    background-color: #596D48;
+    color: rgb(247, 247, 247);
+    font-weight: 600;
+    font-size: .9rem;
+    padding: .7rem 0;
+    border: none;
+    border-radius: 6px;
+    margin-top: 1.5rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .1);
+}
+
+#form-container > p {
+    padding-left: var(--padding-text-left);
+    margin-top: 25px;
+    font-weight: 200;
+}
+
+a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: 600;
+}
